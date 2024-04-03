@@ -1,0 +1,11 @@
+{
+  "name": "mustache-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "mustache en.json helloworld.template.html > en.html && mustache fr.json helloworld.template.html > fr.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
